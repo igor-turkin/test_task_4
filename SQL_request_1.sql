@@ -14,7 +14,7 @@ SELECT manager_name,
         sal,
         vsp_name,
         CASE 
-        WHEN sal = MAX(sal) OVER (PARTITION BY vsp_name) THEN -1
+        WHEN sal = MAX(sal) OVER (PARTITION BY vsp_name) THEN '-1'
         ELSE (SELECT manager_name 
             FROM t1 as a 
             WHERE a.vsp_name = b.vsp_name and a.rank = b.rank-1 

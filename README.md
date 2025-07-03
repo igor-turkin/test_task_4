@@ -1,4 +1,4 @@
-# Тестовое задание на позицию Junior Data Analyst. Задача по SQL
+## Тестовое задание на позицию Junior Data Analyst. Задача по SQL
 
 ## Дано:
 
